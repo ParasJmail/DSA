@@ -1,6 +1,6 @@
-#include<vector>
-using namespace std;
-int firstOcc(vector<int>& arr, int n, int key) {
+#include <iostream>
+
+int firstOcc(int arr[], int n, int key) {
 
     int s = 0, e = n-1;
     int mid = s + (e-s)/2;
@@ -22,8 +22,7 @@ int firstOcc(vector<int>& arr, int n, int key) {
     }
     return ans;
 }
-
-int lastOcc(vector<int>& arr, int n, int key) {
+int lastOcc(int arr[], int n, int key) {
 
     int s = 0, e = n-1;
     int mid = s + (e-s)/2;
@@ -46,11 +45,12 @@ int lastOcc(vector<int>& arr, int n, int key) {
     return ans;
 }
 
-pair<int, int> firstAndLastPosition(vector<int>& arr, int n, int k)
-{
-    pair<int,int> p;
-    p.first = firstOcc(arr, n, k);
-    p.second = lastOcc(arr, n, k);
-    
-    return p;
+int main(){
+    int arr[6] {1,2,3,3,3,5};
+
+    int Ans = firstOcc(arr,6,3);
+    int Last = lastOcc(arr,6,3);
+
+    std::cout << Ans <<std::endl;
+    std::cout << Last <<std::endl;
 }
