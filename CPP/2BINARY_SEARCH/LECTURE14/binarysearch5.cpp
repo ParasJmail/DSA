@@ -42,7 +42,7 @@ int FindSqRt(int n)
 int main()
 {
 
-    int ans = FindSqRt(16);
+    int ans = FindSqRt(36);
 
     std::cout << ans;
 }
