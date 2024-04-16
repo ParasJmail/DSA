@@ -7,8 +7,9 @@ int main()
     std::vector<int> v;
 
     std::vector<int> a(5, 1);
+    std::vector<int> last(a);
 
-    for (int i : a)
+    for (int i : last)
     {
         std::cout << i << " ";
     }
