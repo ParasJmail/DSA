@@ -51,6 +51,8 @@
     "queue": "cpp",
     "ranges": "cpp",
     "span": "cpp",
-    "stack": "cpp"
+    "stack": "cpp",
+    "set": "cpp",
+    "xtree": "cpp"
   }
 }
