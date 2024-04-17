@@ -47,6 +47,10 @@
     "optional": "cpp",
     "array": "cpp",
     "deque": "cpp",
-    "list": "cpp"
+    "list": "cpp",
+    "queue": "cpp",
+    "ranges": "cpp",
+    "span": "cpp",
+    "stack": "cpp"
   }
 }
