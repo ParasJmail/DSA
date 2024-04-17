@@ -45,6 +45,7 @@
     "xutility": "cpp",
     "algorithm": "cpp",
     "optional": "cpp",
-    "array": "cpp"
+    "array": "cpp",
+    "deque": "cpp"
   }
 }
