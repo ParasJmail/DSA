@@ -46,6 +46,7 @@
     "algorithm": "cpp",
     "optional": "cpp",
     "array": "cpp",
-    "deque": "cpp"
+    "deque": "cpp",
+    "list": "cpp"
   }
 }
